@@ -9,3 +9,7 @@ Sorting such as:
 
 Bubble Sort
 Quick Sort 
+
+
+Files----
+Fibo.c  Deals with fibonacci in 3 different ways (Iterative, recursive and dynamically)  
