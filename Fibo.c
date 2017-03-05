@@ -1,4 +1,8 @@
 //Lab 4 254 
+/* Prabhjit Singh  
+Dealing with Fibonacci in 3 different ways:
+Iterative, Recursive, dynamic 
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
