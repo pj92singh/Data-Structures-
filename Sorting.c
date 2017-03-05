@@ -1,3 +1,6 @@
+/* Prabhjit Singh  
+sorting using quick sort 
+and its parition */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
