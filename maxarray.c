@@ -1,6 +1,10 @@
 //Lab 9 60- 254 
 // Prabhjit Singh
-// 103180339 
+/* finding a row with the most 
+*  number of ones in it 
+*  in this case we made a predtermined array 
+*  to test it on 
+*/
 
 #include <stdio.h>
 #include <math.h> 
