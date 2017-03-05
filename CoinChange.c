@@ -1,6 +1,8 @@
 //lab 5 254 
 //Prabhjit Singh
 //103180339 
+//coin change 
+//using greedy algo
 #include<stdio.h>
 
 int dyn(int input, int c1, int c2, int c3, int c4); 
