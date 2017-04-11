@@ -10,18 +10,36 @@ Sorting such as:
 Bubble Sort
 Quick Sort 
 ---------------------------------------------------------------
-Files----
-Fibo.c  Deals with fibonacci in 3 different ways (Iterative, recursive and dynamically)  
+
+Fibo.c  -Deals with fibonacci in 3 different ways
+         (Iterative, recursive and dynamically)  
 ---------------------------------------------------------------
 
-maxarray.c -Deals with seraching a 2-D array and finding the row with the most 1's in it. 
+Arithimtic -Declaring function prototypes,
+             for summation, factorial and fibo 
+             each take on int as input, 
+             while gcd and power take two int inputs
+---------------------------------------------------------------
+
+
+Arraybuild.c -building a 2D array and seraching through it
+             -also allows for left shift of the array 
+---------------------------------------------------------------
+             
+
+
+maxarray.c -Deals with seraching a 2-D array
+            and finding the row with the most 1's in it. 
 ---------------------------------------------------------------
 
 arrayrev.c -this program takes an int size n
-    for an array then allocates an array of that size
-    and takes in input from user to fill it up
-    then prints out the array from the last spot to
-    the first spot (reverse)
+            for an array then allocates an array of that size
+            and takes in input from user to fill it up
+            then prints out the array from the last spot to
+            the first spot (reverse)
 ---------------------------------------------------------------
 
+Recu_num.c -This program will reverse an number 
+            that is given, using iterative func
+            and a recursive fun
 
