@@ -56,3 +56,12 @@ function free it up and it goes back to 0
 So the program will work as a multi-process program with multiple
 child and parent process creating and freeing up
 
+--------------------------------------------
+
+Hashtables.c 
+--------------------------------------------
+-Probing hashtable of random integers using
+linear probing and quadratic probing
+-With a lower bound factor and Primer numbers
+as the key
+
