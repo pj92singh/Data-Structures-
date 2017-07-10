@@ -13,39 +13,56 @@ Bubble Sort
 Quick Sort 
 --------------------------------------------
 
-Fibo.c  -Deals with fibonacci in 3 different ways
-         (Iterative, recursive and dynamically)  
+Fibo.c 
+--------------------------------------------
+-Deals with fibonacci in 3 different ways
+(Iterative, recursive and dynamically)  
+         
 --------------------------------------------
 
-Arithimtic -Declaring function prototypes,
-             for summation, factorial and fibo 
-             each take on int as input, 
-             while gcd and power take two int inputs
+Arithimtic
+--------------------------------------------
+-Declaring function prototypes,
+for summation, factorial and fibo 
+each take on int as input, 
+while gcd and power take two int inputs
+             
 --------------------------------------------
 
 
-Arraybuild.c -building a 2D array and seraching through it
-             -also allows for left shift of the array 
+Arraybuild.c 
+--------------------------------------------
+-building a 2D array and seraching through it
+ -also allows for left shift of the array 
+             
 --------------------------------------------
              
-
-
-maxarray.c -Deals with seraching a 2-D array
-            and finding the row with the most 1's in it. 
+maxarray.c 
 --------------------------------------------
-
-arrayrev.c -this program takes an int size n
-            for an array then allocates an array of that size
-            and takes in input from user to fill it up
-            then prints out the array from the last spot to
-            the first spot (reverse)
---------------------------------------------
-
-Recu_num.c -This program will reverse an number 
-            that is given, using iterative func
-            and a recursive fun
---------------------------------------------
+ -Deals with seraching a 2-D array
+  and finding the row with the most 1's in it. 
             
+--------------------------------------------
+
+arrayrev.c
+--------------------------------------------
+-this program takes an int size n
+for an array then allocates an array of that size
+and takes in input from user to fill it up
+then prints out the array from the last spot to
+the first spot (reverse)
+
+--------------------------------------------
+
+
+Recu_num.c
+--------------------------------------------
+-This program will reverse an number 
+that is given, using iterative func
+and a recursive fun
+
+--------------------------------------------
+
  pidmanrun.c
 --------------------------------------------
 
@@ -62,6 +79,6 @@ Hashtables.c
 --------------------------------------------
 -Probing hashtable of random integers using
 linear probing and quadratic probing
--With a lower bound factor and Primer numbers
+-With a lower bound factor and Prime numbers
 as the key
 
