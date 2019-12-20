@@ -4,6 +4,8 @@ Lab work/assignments and extra work consisting of:
 Array's 
 AVL Trees / Binary Search Tree's 
 Hash table (linear / quadratic 
+Code is in C and C# 
+
 PID managers etc.
 --------------------------------------------
 
