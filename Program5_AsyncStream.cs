@@ -19,9 +19,30 @@ namespace ConsoleApp5_Asyn_Stream
     }
     class Program
     {
-        static void Main(string[] args)
+        async static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //await is needed
+            //for something that is using async streams
+            await foreach(var student in GetStudentAsync())
+            {
+                Console.WriteLine($"{Student.FirstName} {Student.LastName}");
+            }
+            Console.ReadKey();
+        }
+        async static IAsyncEnumerable<Student> GetStudentAsync()
+        {
+            var list = new List<Student>()
+            {
+                new Student() {FirstName = "John", LastName = "Doe", Email = "john.doe@test.com", GPA = 2.98},
+                new Student(){FirstName = "Bob", LastName = "Olsn", Email = "bob.o@test.com", GPA = 3.22}
+            };
+            foreach(var Student in list)
+            {
+                await Task.Delay(3000);
+                yield return Student; 
+                //returns the stream of students
+            }
+
         }
     }
 }
