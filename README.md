@@ -5,6 +5,7 @@ Array's
 AVL Trees / Binary Search Tree's 
 Hash table (linear / quadratic 
 Code is in C and C# 
+(description of C# code is in the files) 
 
 PID managers etc.
 --------------------------------------------
