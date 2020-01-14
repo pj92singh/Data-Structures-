@@ -8,7 +8,7 @@
 * Author: Prabhjit Singh 
 * Purpose:  part 3 consoleapp
 -using the new c# extending property 
--this allows us to have interface memebers and extend them
+-this allows us to have interface members and extend them
 -this way the method can be invoked via other classes without adding the code
 _
  ********************************************************************/
@@ -19,7 +19,7 @@ _
      Task Critical(string description, Exeption ex);
      //this last interface memeber will be extended in other classes that extend this interface
      Task Trace(string description) => Console.WriteLine($"Trace:" {description}"");
-     //
+     // further test the invocation of this
  }
  /************* 
  i.e
