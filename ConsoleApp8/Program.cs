@@ -14,8 +14,8 @@ namespace ConsoleApp8
     class Program
     {
         /* app 8 will use the interface IReporter 
-         * Report class and then the related exceptions classes
-         * to us the pattern concenpts of C# and show the correct logs
+         * Report class and then the related custom exception classes
+         * to use the pattern concenpts of C# and show the correct logs
          
           the relationship is as follows; 
           ****class and interface structure *****
