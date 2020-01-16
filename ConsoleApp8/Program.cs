@@ -30,9 +30,13 @@ namespace ConsoleApp8
           */
         static void Main(string[] args)
         {
-            try {
+           try {
+                //testing DB error
                 //throw new DatabaseException("DB connection failed", "API DB");
-                throw new HttpException("HTTP error", "http//www.netsite.com", 503); 
+                throw new HttpException("HTTP error", "http//www.gitsite.com", 503); 
+                /*we can also test other exeception
+                throw new FileSystemException("File not found");
+                */
             }
             catch (Exception err){
                 //testing with level error
@@ -40,7 +44,11 @@ namespace ConsoleApp8
                 reporter.Report(err, "Something went wrong in the main method", SeverityLevel.Error);
                 reporter.Report(err, "Something went wrong in the main method", SeverityLevel.Info);
                 //we can contiune testing with other memebers of severitylevel and different exceptions
-
+                /*
+                reporter.Report(err, "Something went wrong in the main method", SeverityLevel.Critical);
+                reporter.Report(err, "Something went wrong in the main method", SeverityLevel.Warning);
+                reporter.Report(err, "Something went wrong in the main method", SeverityLevel.Trace);
+                */
             }
             Console.ReadKey();
         }
